@@ -93,3 +93,12 @@ nav a:hover {
   display: flex;
   flex-direction: column;
 }
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
