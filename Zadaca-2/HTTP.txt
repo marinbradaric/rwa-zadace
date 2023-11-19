@@ -1,0 +1,66 @@
+Zadaća 2 - Osnove HTTP-a
+
+2.1.
+a) Preglednik pokreće HTTP/1.1 verziju:
+HTTP/1.1 200 OK
+
+b) Kada pristupim sa www.sum.ba:
+HTTP/1.1 30
+
+c) Accept-Language:
+en-US,en;q=0.9,hr;q=0.8
+
+d) IP adresa mog računala: IPv4: 5.133.130.158
+IP adresa sum.ba: 212.39.111.33
+
+e) Za datoteku http://info.cern.ch/hypertext/WWW/TheProject.html:
+
+Last-Modified:
+Thu, 03 Dec 1992 08:37:20 GMT
+
+f) Za http://info.cern.ch/hypertext/WWW/TheProject.html, broj bajtova iznosi:
+Content-Length:
+2217
+
+g) Za http://info.cern.ch/hypertext/WWW/TheProject.html: 
+	Server: Apache
+Za www.sum.ba: 
+	Server: Apache/2.4.29 (Ubuntu)
+
+
+h) Engleski i Hrvatski:
+Accept-Language:
+en-US,en;q=0.9,hr;q=0.8
+
+
+2.2
+a) MIME formati:
+	1. "http://web-admin.sum.ba/api/storage/pravilnik_mobilnost_1552858671_80.pdf":
+		Content-Type: text/html;
+
+	2. "https://eucenje.sum.ba/moodle/pluginfile.php/1/core_admin/logocompact/300x300/1698654623/Logo%20sumarum.png":
+		Content-Type: image/png;
+
+	3. "https://mirrors.edge.kernel.org/linuxmint/stable/10/sha256sum.txt":
+		Content-Type: text/plain;
+
+b) Veličina resursa (u byte-ima):
+	1. "http://web-admin.sum.ba/api/storage/pravilnik_mobilnost_1552858671_80.pdf":
+		Content-Length: 364
+		
+	2. "https://eucenje.sum.ba/moodle/pluginfile.php/1/core_admin/logocompact/300x300/1698654623/Logo%20sumarum.png":
+		Content-Length: 15684
+
+	3. "https://mirrors.edge.kernel.org/linuxmint/stable/10/sha256sum.txt":
+		Content-Length: 1087
+	
+c) Verzija HTTP poslužitelja:
+	1. "http://web-admin.sum.ba/api/storage/pravilnik_mobilnost_1552858671_80.pdf":
+		HTTP/1.1 301 Moved Permanently
+		
+	2. "https://eucenje.sum.ba/moodle/pluginfile.php/1/core_admin/logocompact/300x300/1698654623/Logo%20sumarum.png":
+		HTTP/1.1 200 OK
+
+	3. "https://mirrors.edge.kernel.org/linuxmint/stable/10/sha256sum.txt":
+		HTTP/1.1 200 OK
+	

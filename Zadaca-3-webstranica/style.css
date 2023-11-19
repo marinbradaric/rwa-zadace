@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: red;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  border: 2px solid yellow;
+}
+
+#lijeva-strana {
+  width: 20%;
+  border-right: 2px solid yellow;
+  padding: 0;
+}
+
+#desna-strana {
+  flex: 1;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo-naziv {
+  border-bottom: 2px solid yellow;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+#logo {
+  max-width: 100%;
+}
+
+#naslov {
+  max-width: 100%;
+  font-size: medium;
+}
+
+nav {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0066cc;
+}
+
+#naziv-entiteta {
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  max-width: fit-content;
+}
+
+#sadrzaj {
+  border: 2px solid yellow;
+  background-color: orange;
+  padding: 20px;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
